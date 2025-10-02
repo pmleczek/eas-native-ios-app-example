@@ -4,6 +4,12 @@
       "eas": {
         "projectId": "4916279a-9299-4061-a4af-8c2d466f4eca"
       }
+    },
+    "ios": {
+      "bundleIdentifier": "io.github.pmleczek.NativeExample",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     }
   }
 }
