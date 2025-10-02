@@ -1,5 +1,9 @@
 {
   "name": "native-example",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "expo": "^54.0.12",
+    "expo-dev-client": "^6.0.13"
+  }
 }
