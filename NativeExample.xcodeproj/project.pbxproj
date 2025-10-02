@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87995E082E8E661700DA946E /* SVGView in Frameworks */ = {isa = PBXBuildFile; productRef = 87995E072E8E661700DA946E /* SVGView */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		87995DF62E8DDA1900DA946E /* NativeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87995E082E8E661700DA946E /* SVGView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = NativeExample;
 			packageProductDependencies = (
+				87995E072E8E661700DA946E /* SVGView */,
 			);
 			productName = NativeExample;
 			productReference = 87995DF62E8DDA1900DA946E /* NativeExample.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 87995DED2E8DDA1900DA946E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				87995E062E8E661700DA946E /* XCRemoteSwiftPackageReference "SVGView" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 87995DF72E8DDA1900DA946E /* Products */;
 			projectDirPath = "";
@@ -332,6 +341,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87995E062E8E661700DA946E /* XCRemoteSwiftPackageReference "SVGView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/SVGView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87995E072E8E661700DA946E /* SVGView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87995E062E8E661700DA946E /* XCRemoteSwiftPackageReference "SVGView" */;
+			productName = SVGView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87995DEE2E8DDA1900DA946E /* Project object */;
 }
