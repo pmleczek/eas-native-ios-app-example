@@ -1,5 +1,7 @@
 # Building Fully Native iOS Apps with Expo EAS
 
+### This repository contains the source code for tutorial at: https://blog.swmansion.com/building-fully-native-ios-apps-with-expo-eas-760b5480d7c5
+
 ## 📄 Overview
 
 [Expo Application Services (EAS)](https://expo.dev/eas) is a set of powerful and highly customizable tools for building your React Native apps, automating the CI/CD and streamlined submissions to the app stores. It turns out that we can go beyond that scope and easily configure EAS to build native iOS projects. This repository contains a native iOS project and the EAS configurations required to enable building it with EAS builds and workflows.
